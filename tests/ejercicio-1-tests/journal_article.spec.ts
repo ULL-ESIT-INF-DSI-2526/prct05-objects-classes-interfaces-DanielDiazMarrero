@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import { JournalArticle, BibliographyManager } from "../src";
+import { JournalArticle } from "../../src/ejercicio-1/journal_article";
 
 describe("JournalArticle", () => {
 
@@ -15,7 +15,7 @@ describe("JournalArticle", () => {
     2
   );
 
-  test("Generates correct IEEE reference", () => {
+  test("Se crea la referencia IEEE correcta", () => {
     const ref = article.getIEEEReference();
     expect(ref).toContain("vol. 10");
     expect(ref).toContain("no. 2");
