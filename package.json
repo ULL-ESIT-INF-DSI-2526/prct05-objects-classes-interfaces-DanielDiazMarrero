@@ -7,7 +7,9 @@
     "dev": "tsc-watch --onSuccess \"node dist/basicFunctions.js\"",
     "doc": "typedoc",
     "test": "vitest run",
-    "coverage": "vitest run --coverage --coverage.include src/*"
+    "coverage1": "vitest run --coverage --coverage.include src/ejercicio-1/*",
+    "coverage2": "vitest run --coverage --coverage.include src/ejercicio-2/*",
+    "coverage3": "vitest run --coverage --coverage.include src/ejercicio-3/*"
   },
   "repository": {
     "type": "git",
@@ -30,5 +32,8 @@
     "typedoc": "^0.28.17",
     "typescript-eslint": "^8.56.1",
     "vitest": "^4.0.18"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
