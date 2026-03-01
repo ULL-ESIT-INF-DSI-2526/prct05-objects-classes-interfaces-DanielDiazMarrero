@@ -9,7 +9,8 @@
     "test": "vitest run",
     "coverage1": "vitest run --coverage --coverage.include src/ejercicio-1/*",
     "coverage2": "vitest run --coverage --coverage.include src/ejercicio-2/*",
-    "coverage3": "vitest run --coverage --coverage.include src/ejercicio-3/*"
+    "coverage3": "vitest run --coverage --coverage.include src/ejercicio-3/*",
+    "coverage": "vitest run --coverage --coverage.include src/*"
   },
   "repository": {
     "type": "git",
