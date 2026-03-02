@@ -26,6 +26,7 @@
   "homepage": "https://github.com/ULL-ESIT-INF-DSI-2526/prct05-objects-classes-interfaces-DanielDiazMarrero#readme",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@types/readline-sync": "^1.4.8",
     "@vitest/coverage-v8": "^4.0.18",
     "eslint": "^10.0.2",
     "eslint-plugin-tsdoc": "^0.5.2",
